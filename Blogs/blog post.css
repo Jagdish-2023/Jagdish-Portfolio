@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+body {
+    max-width: 85%;
+    font-family: 'Play', sans-serif;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+:root {
+    --primary-color: rgb(35, 31, 32);
+}
+
+
+/* navigation bar */
+.navbar {
+    display: flex;
+    background-color: var(--primary-color);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbox1 {
+    background-color: yellow;
+    padding: 10px;
+}
+
+.brand-name {
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+}
+
+.navbox2 ul {
+    display: flex;
+}
+
+.navbox2 ul li {
+    list-style: none;
+    padding: 0px 10px;
+}
+
+.navbox2 .links {
+    text-decoration: none;
+    color: white;
+}
+
+.link-active {
+    font-weight: bolder;
+}
+
+.navbox3 {
+    color: white;
+    font-size: 1.3rem;
+    margin-right: 1rem;
+}
+
+
+/* header part */
+.head {
+    margin-top: 10rem;
+}
+
+.main-question {
+    font-size: 3.5rem;
+}
+
+.contributor-details-container {
+    display: flex;
+    align-items: center;
+}
+
+.author-img-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    /* hide any part of the image that goes beyond the circular shape */
+}
+
+.author-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* ensure the image fills the circular container */
+}
+
+.author-details p {
+    margin: 4px;
+    padding: 0px;
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.author-name {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.designation {
+    font-style: italic;
+    font-size: 0.8rem;
+}
+
+.head .short-answer {
+    padding: 30px 0px;
+    font-size: 1.5rem;
+}
+
+/* header image */
+.head .hero-img {
+    display: block;
+    margin: auto;
+    height: 50%;
+    width: 60%;
+}
+
+/* section part */
+section {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0px;
+}
+
+section .all-box {
+    margin: 30px 0px;
+}
+
+section .all-box p {
+    font-size: 1.5rem;
+    /* margin: 15px 200px 15px 0; */
+    padding-right: 200px;
+}
+
+section .heading {
+    font-size: 2.3rem;
+    margin: 20px 0;
+}
+
+/* footer section */
+.foot {
+    background-color: var(--primary-color);
+}
+
+.foot .copyrights {
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+    padding: 5px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
